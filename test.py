@@ -21,7 +21,7 @@ while True:
 
 
     cv2.imshow('rgb', color_image)
-    cv2.imshow('depth', depth_image)
+    # cv2.imshow('depth', depth_image)
     cv2.imshow('cm', depth_cm)
 
     if cv2.waitKey(1) == ord('q'):
